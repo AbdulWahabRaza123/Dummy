@@ -1,0 +1,50 @@
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+}
+input[type=text],input[type=email],
+input[type=date]{
+    margin:10px;
+    padding:3px;
+}
+#Sides{
+    display:flex;
+    flex-direction:row;
+}
+#leftSide{
+    flex:50%;
+    margin-top:20px;
+    margin-left:20px;
+}
+#rightSide{
+    flex:50%;
+    margin-left:-70px;
+    margin-top: 20px;
+}
+.vertical {
+    border-left: 2px solid black;
+    height: 500px;
+    position: absolute;
+    left: 45%;
+}
+#name{
+    margin-left:55px;
+}
+#email{
+    margin-left:30px;
+}
+#rightEmail {
+    margin-left: 55px;
+}
+.btn-style{
+    margin-top:50px;
+}
+#Output{
+    padding-bottom:180px;
+    margin-right:80px;
+    margin-top:40px;
+    border:3px solid black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
